@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A47D210225A4148700A3698F /* UIViewController+GenericAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47D210125A4148700A3698F /* UIViewController+GenericAlert.swift */; };
+		A4DA214725A3F54A00DE144A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA214625A3F54A00DE144A /* AppDelegate.swift */; };
+		A4DA214925A3F54A00DE144A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA214825A3F54A00DE144A /* SceneDelegate.swift */; };
+		A4DA214B25A3F54A00DE144A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA214A25A3F54A00DE144A /* ViewController.swift */; };
+		A4DA214E25A3F54A00DE144A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DA214C25A3F54A00DE144A /* Main.storyboard */; };
+		A4DA215025A3F54D00DE144A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DA214F25A3F54D00DE144A /* Assets.xcassets */; };
+		A4DA215325A3F54D00DE144A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DA215125A3F54D00DE144A /* LaunchScreen.storyboard */; };
+		A4DA215E25A3F54D00DE144A /* pdfInAppWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA215D25A3F54D00DE144A /* pdfInAppWebViewTests.swift */; };
+		A4DA216925A3F54D00DE144A /* pdfInAppWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA216825A3F54D00DE144A /* pdfInAppWebViewUITests.swift */; };
+		A4DA217E25A3F59900DE144A /* ButtonsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA217D25A3F59900DE144A /* ButtonsPage.swift */; };
+		A4DA218625A3F6A800DE144A /* PDFFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DA218525A3F6A800DE144A /* PDFFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4DA215A25A3F54D00DE144A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DA213B25A3F54A00DE144A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DA214225A3F54A00DE144A;
+			remoteInfo = pdfInAppWebView;
+		};
+		A4DA216525A3F54D00DE144A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DA213B25A3F54A00DE144A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DA214225A3F54A00DE144A;
+			remoteInfo = pdfInAppWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A47D210125A4148700A3698F /* UIViewController+GenericAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+GenericAlert.swift"; sourceTree = "<group>"; };
+		A4DA214325A3F54A00DE144A /* pdfInAppWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfInAppWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DA214625A3F54A00DE144A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4DA214825A3F54A00DE144A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4DA214A25A3F54A00DE144A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4DA214D25A3F54A00DE144A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4DA214F25A3F54D00DE144A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4DA215225A3F54D00DE144A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4DA215425A3F54D00DE144A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DA215925A3F54D00DE144A /* pdfInAppWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfInAppWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DA215D25A3F54D00DE144A /* pdfInAppWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfInAppWebViewTests.swift; sourceTree = "<group>"; };
+		A4DA215F25A3F54D00DE144A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DA216425A3F54D00DE144A /* pdfInAppWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdfInAppWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DA216825A3F54D00DE144A /* pdfInAppWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfInAppWebViewUITests.swift; sourceTree = "<group>"; };
+		A4DA216A25A3F54D00DE144A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DA217D25A3F59900DE144A /* ButtonsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsPage.swift; sourceTree = "<group>"; };
+		A4DA218525A3F6A800DE144A /* PDFFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DA214025A3F54A00DE144A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA215625A3F54D00DE144A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA216125A3F54D00DE144A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A47D210025A4146E00A3698F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A47D210125A4148700A3698F /* UIViewController+GenericAlert.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A4DA213A25A3F54A00DE144A = {
+			isa = PBXGroup;
+			children = (
+				A4DA214525A3F54A00DE144A /* pdfInAppWebView */,
+				A4DA215C25A3F54D00DE144A /* pdfInAppWebViewTests */,
+				A4DA216725A3F54D00DE144A /* pdfInAppWebViewUITests */,
+				A4DA214425A3F54A00DE144A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DA214425A3F54A00DE144A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA214325A3F54A00DE144A /* pdfInAppWebView.app */,
+				A4DA215925A3F54D00DE144A /* pdfInAppWebViewTests.xctest */,
+				A4DA216425A3F54D00DE144A /* pdfInAppWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DA214525A3F54A00DE144A /* pdfInAppWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A47D210025A4146E00A3698F /* Categories */,
+				A4DA218A25A3FAE100DE144A /* Controller */,
+				A4DA217C25A3F58F00DE144A /* Page */,
+				A4DA214625A3F54A00DE144A /* AppDelegate.swift */,
+				A4DA214825A3F54A00DE144A /* SceneDelegate.swift */,
+				A4DA214C25A3F54A00DE144A /* Main.storyboard */,
+				A4DA214F25A3F54D00DE144A /* Assets.xcassets */,
+				A4DA215125A3F54D00DE144A /* LaunchScreen.storyboard */,
+				A4DA215425A3F54D00DE144A /* Info.plist */,
+				A4DA218525A3F6A800DE144A /* PDFFile.swift */,
+			);
+			path = pdfInAppWebView;
+			sourceTree = "<group>";
+		};
+		A4DA215C25A3F54D00DE144A /* pdfInAppWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA215D25A3F54D00DE144A /* pdfInAppWebViewTests.swift */,
+				A4DA215F25A3F54D00DE144A /* Info.plist */,
+			);
+			path = pdfInAppWebViewTests;
+			sourceTree = "<group>";
+		};
+		A4DA216725A3F54D00DE144A /* pdfInAppWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA216825A3F54D00DE144A /* pdfInAppWebViewUITests.swift */,
+				A4DA216A25A3F54D00DE144A /* Info.plist */,
+			);
+			path = pdfInAppWebViewUITests;
+			sourceTree = "<group>";
+		};
+		A4DA217C25A3F58F00DE144A /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA217D25A3F59900DE144A /* ButtonsPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		A4DA218A25A3FAE100DE144A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA214A25A3F54A00DE144A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DA214225A3F54A00DE144A /* pdfInAppWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DA216D25A3F54D00DE144A /* Build configuration list for PBXNativeTarget "pdfInAppWebView" */;
+			buildPhases = (
+				A4DA213F25A3F54A00DE144A /* Sources */,
+				A4DA214025A3F54A00DE144A /* Frameworks */,
+				A4DA214125A3F54A00DE144A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdfInAppWebView;
+			productName = pdfInAppWebView;
+			productReference = A4DA214325A3F54A00DE144A /* pdfInAppWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4DA215825A3F54D00DE144A /* pdfInAppWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DA217025A3F54D00DE144A /* Build configuration list for PBXNativeTarget "pdfInAppWebViewTests" */;
+			buildPhases = (
+				A4DA215525A3F54D00DE144A /* Sources */,
+				A4DA215625A3F54D00DE144A /* Frameworks */,
+				A4DA215725A3F54D00DE144A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DA215B25A3F54D00DE144A /* PBXTargetDependency */,
+			);
+			name = pdfInAppWebViewTests;
+			productName = pdfInAppWebViewTests;
+			productReference = A4DA215925A3F54D00DE144A /* pdfInAppWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4DA216325A3F54D00DE144A /* pdfInAppWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DA217325A3F54D00DE144A /* Build configuration list for PBXNativeTarget "pdfInAppWebViewUITests" */;
+			buildPhases = (
+				A4DA216025A3F54D00DE144A /* Sources */,
+				A4DA216125A3F54D00DE144A /* Frameworks */,
+				A4DA216225A3F54D00DE144A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DA216625A3F54D00DE144A /* PBXTargetDependency */,
+			);
+			name = pdfInAppWebViewUITests;
+			productName = pdfInAppWebViewUITests;
+			productReference = A4DA216425A3F54D00DE144A /* pdfInAppWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DA213B25A3F54A00DE144A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A4DA214225A3F54A00DE144A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A4DA215825A3F54D00DE144A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A4DA214225A3F54A00DE144A;
+					};
+					A4DA216325A3F54D00DE144A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A4DA214225A3F54A00DE144A;
+					};
+				};
+			};
+			buildConfigurationList = A4DA213E25A3F54A00DE144A /* Build configuration list for PBXProject "pdfInAppWebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DA213A25A3F54A00DE144A;
+			productRefGroup = A4DA214425A3F54A00DE144A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DA214225A3F54A00DE144A /* pdfInAppWebView */,
+				A4DA215825A3F54D00DE144A /* pdfInAppWebViewTests */,
+				A4DA216325A3F54D00DE144A /* pdfInAppWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DA214125A3F54A00DE144A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DA215325A3F54D00DE144A /* LaunchScreen.storyboard in Resources */,
+				A4DA215025A3F54D00DE144A /* Assets.xcassets in Resources */,
+				A4DA214E25A3F54A00DE144A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA215725A3F54D00DE144A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA216225A3F54D00DE144A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DA213F25A3F54A00DE144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DA217E25A3F59900DE144A /* ButtonsPage.swift in Sources */,
+				A4DA218625A3F6A800DE144A /* PDFFile.swift in Sources */,
+				A4DA214B25A3F54A00DE144A /* ViewController.swift in Sources */,
+				A4DA214725A3F54A00DE144A /* AppDelegate.swift in Sources */,
+				A4DA214925A3F54A00DE144A /* SceneDelegate.swift in Sources */,
+				A47D210225A4148700A3698F /* UIViewController+GenericAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA215525A3F54D00DE144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DA215E25A3F54D00DE144A /* pdfInAppWebViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA216025A3F54D00DE144A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DA216925A3F54D00DE144A /* pdfInAppWebViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4DA215B25A3F54D00DE144A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DA214225A3F54A00DE144A /* pdfInAppWebView */;
+			targetProxy = A4DA215A25A3F54D00DE144A /* PBXContainerItemProxy */;
+		};
+		A4DA216625A3F54D00DE144A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DA214225A3F54A00DE144A /* pdfInAppWebView */;
+			targetProxy = A4DA216525A3F54D00DE144A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4DA214C25A3F54A00DE144A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DA214D25A3F54A00DE144A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4DA215125A3F54D00DE144A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DA215225A3F54D00DE144A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4DA216B25A3F54D00DE144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4DA216C25A3F54D00DE144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DA216E25A3F54D00DE144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V63UZ8ZMFC;
+				INFOPLIST_FILE = pdfInAppWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rinniswift.pdfInAppWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4DA216F25A3F54D00DE144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V63UZ8ZMFC;
+				INFOPLIST_FILE = pdfInAppWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rinniswift.pdfInAppWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4DA217125A3F54D00DE144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V63UZ8ZMFC;
+				INFOPLIST_FILE = pdfInAppWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rinniswift.pdfInAppWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfInAppWebView.app/pdfInAppWebView";
+			};
+			name = Debug;
+		};
+		A4DA217225A3F54D00DE144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V63UZ8ZMFC;
+				INFOPLIST_FILE = pdfInAppWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rinniswift.pdfInAppWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pdfInAppWebView.app/pdfInAppWebView";
+			};
+			name = Release;
+		};
+		A4DA217425A3F54D00DE144A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V63UZ8ZMFC;
+				INFOPLIST_FILE = pdfInAppWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rinniswift.pdfInAppWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pdfInAppWebView;
+			};
+			name = Debug;
+		};
+		A4DA217525A3F54D00DE144A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V63UZ8ZMFC;
+				INFOPLIST_FILE = pdfInAppWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rinniswift.pdfInAppWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pdfInAppWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DA213E25A3F54A00DE144A /* Build configuration list for PBXProject "pdfInAppWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DA216B25A3F54D00DE144A /* Debug */,
+				A4DA216C25A3F54D00DE144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DA216D25A3F54D00DE144A /* Build configuration list for PBXNativeTarget "pdfInAppWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DA216E25A3F54D00DE144A /* Debug */,
+				A4DA216F25A3F54D00DE144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DA217025A3F54D00DE144A /* Build configuration list for PBXNativeTarget "pdfInAppWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DA217125A3F54D00DE144A /* Debug */,
+				A4DA217225A3F54D00DE144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DA217325A3F54D00DE144A /* Build configuration list for PBXNativeTarget "pdfInAppWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DA217425A3F54D00DE144A /* Debug */,
+				A4DA217525A3F54D00DE144A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DA213B25A3F54A00DE144A /* Project object */;
+}
